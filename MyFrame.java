@@ -31,7 +31,7 @@ public class MyFrame extends JFrame{
 		this.setVisible(true);//To make layout visible
 		
 		//SimpleDateFormat class is used to ormatting and parsing dates in a locale-sensitive manner
-		 timeFormat = new SimpleDateFormat("HH:MM:SS"); //creating format for time
+		 timeFormat = new SimpleDateFormat("HH:mm:ss"); //creating format for time
 		 dayFormat = new SimpleDateFormat("EEEE");//creating format for day
 		 dateFormat = new SimpleDateFormat("MMMM dd, yyyy");//creating format for date
 		
